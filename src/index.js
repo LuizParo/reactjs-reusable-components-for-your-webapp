@@ -5,8 +5,10 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './index.css';
 
 import App from './App';
-import AutorBox from './autor/Autor';
 import Home from './components/home';
+
+import AutorBox from './autor/Autor';
+import LivroBox from './livro/Livro';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -16,7 +18,7 @@ ReactDOM.render(
             <Switch>
                 <Route exact path='/' component={Home} />
                 <Route path='/autor' component={AutorBox} />
-                <Route path='/livro' />
+                <Route path='/livro' component={LivroBox} />
             </Switch>
         </App>
     </Router>),

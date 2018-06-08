@@ -4,6 +4,7 @@ import $ from 'jquery';
 
 import ButtonCustomizado from '../components/button-customizado';
 import InputCustomizado, { TOPIC_LIMPA_ERROS } from '../components/input-customizado';
+
 import TratadorDeErros from '../utils/TratadorDeErros';
 
 export const TOPIC_ATUALIZA_AUTORES = 'atualizaAutores';
